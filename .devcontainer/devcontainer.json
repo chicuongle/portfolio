@@ -1,0 +1,8 @@
+{
+  "name": "Eclipse Plugin Development",
+  "image": "mcr.microsoft.com/vscode/devcontainers/java:0-11",
+  "features": {
+    "ghcr.io/devcontainers/features/maven:1": {}
+  },
+  "postCreateCommand": "mvn clean install"
+}
